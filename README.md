@@ -4,7 +4,7 @@
 # Linux/macOS
 python3 -m pip install -U discord.py
 
-# Windows
+\# Windows
 py -3 -m pip install -U discord.py
 </pre>
 <p>Edit the content of the template to adjust it to your needs.</p>
