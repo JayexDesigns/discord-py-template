@@ -67,6 +67,7 @@ class Bot(commands.Bot):
             self.ready = True
             print(f"{self.user} is ready to rumble!")
             self.owner = self.get_user(self.ownersId[0])
+            #Change The Default Activity Of The Bot
             self.defaultActivity = discord.Game(name="|Write !help|")
             await self.change_presence(activity=self.defaultActivity)
 
