@@ -5,7 +5,7 @@ import os
 
 #Cogs List
 cogs = []
-for i in os.listdir("lib\\cogs"):
+for i in os.listdir("lib/cogs"):
     if i.endswith(".py"):
         cogs.append(i[:-3])
 
@@ -44,7 +44,7 @@ class Bot(commands.Bot):
     #Bot Run Function
     def run(self, version):
         self.version = version
-        with open("lib\\bot\\token", "r") as file:
+        with open("lib/bot/token", "r") as file:
             self.token = file.read()
         
         self.cogSetup()
