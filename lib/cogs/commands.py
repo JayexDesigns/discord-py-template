@@ -31,7 +31,7 @@ class Commands(commands.Cog):
             print(self.bot.colors["blue"]+f"{ctx.message.author} says {ctx.message.content} in {ctx.message.guild} server"+self.bot.colors["white"])
             await ctx.send("pong")
             #Send A File
-            # await ctx.send(file=discord.File("data\\img\\image.png"))
+            # await ctx.send(file=discord.File("data/img/image.png"))
 
 
 
